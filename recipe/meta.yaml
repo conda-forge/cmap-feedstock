@@ -1,5 +1,5 @@
 {% set name = "cmap" %}
-{% set version = "0.0.1" %}
+{% set version = "0.0.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/cmap-{{ version }}.tar.gz
-  sha256: 56841f45692d8847b3475d78083c4e12ae6bf140f63fe1158b61e36338b0248f
+  sha256: 8b4817b0a83b7e97935cc248b6070d9420a4f4bdc5e2d19e8af5ebc2a04b5992
 
 build:
   noarch: python
@@ -37,7 +37,7 @@ about:
   summary: Scientific colormaps for python, with only numpy dependency
   license: BSD-3-Clause
   license_family: BSD
-  license_file: 
+  license_file:
     - LICENSE/LICENSE
     - LICENSE/LICENSE_YORICK
     - LICENSE/LICENSE_WISTIA
