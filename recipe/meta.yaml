@@ -1,5 +1,5 @@
 {% set name = "cmap" %}
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/cmap-{{ version }}.tar.gz
-  sha256: 02c01eb0e196932e8cbcece8f1cff7e1126842356a7ea190f6810e9ad8f2af35
+  sha256: c4aca909bdd65c76ab59d0c875e8c3fc4b1252076c5ea4ef37fbb03d9784980d
 
 build:
   noarch: python
