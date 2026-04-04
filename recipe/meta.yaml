@@ -38,16 +38,7 @@ about:
   summary: Scientific colormaps for python, with only numpy dependency
   license: BSD-3-Clause
   license_family: BSD
-  license_file:
-    - LICENSE/LICENSE
-    - LICENSE/LICENSE_YORICK
-    - LICENSE/LICENSE_WISTIA
-    - LICENSE/LICENSE_GLASBEY
-    - LICENSE/LICENSE_CVIDIS
-    - LICENSE/LICENSE_CRAMERI
-    - LICENSE/LICENSE_COLORCET
-    - LICENSE/LICENSE_COLORBREWER
-    - LICENSE/LICENSE_CMOCEAN
+  license_file: LICENSES/
   doc_url: https://cmap-docs.rtfd.io
   dev_url: https://github.com/tlambert03/cmap
 
