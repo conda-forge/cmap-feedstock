@@ -1,5 +1,5 @@
 {% set name = "cmap" %}
-{% set version = "0.7.1" %}
+{% set version = "0.7.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/cmap-{{ version }}.tar.gz
-  sha256: 0d9c70e479360fe4c659fc1d668b48be5c3de006eb6549104513d518ed943a49
+  sha256: 9501cec4d5c2b7a821479aec3282b3d8b42fda983bad055e0f9dbc19cf7bc5b1
 
 build:
   noarch: python
@@ -38,16 +38,7 @@ about:
   summary: Scientific colormaps for python, with only numpy dependency
   license: BSD-3-Clause
   license_family: BSD
-  license_file:
-    - LICENSE/LICENSE
-    - LICENSE/LICENSE_YORICK
-    - LICENSE/LICENSE_WISTIA
-    - LICENSE/LICENSE_GLASBEY
-    - LICENSE/LICENSE_CVIDIS
-    - LICENSE/LICENSE_CRAMERI
-    - LICENSE/LICENSE_COLORCET
-    - LICENSE/LICENSE_COLORBREWER
-    - LICENSE/LICENSE_CMOCEAN
+  license_file: LICENSES/
   doc_url: https://cmap-docs.rtfd.io
   dev_url: https://github.com/tlambert03/cmap
 
