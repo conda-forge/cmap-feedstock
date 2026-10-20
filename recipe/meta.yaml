@@ -1,13 +1,13 @@
 {% set name = "cmap" %}
-{% set version = "0.7.2" %}
+{% set version = "0.8.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/cmap-{{ version }}.tar.gz
-  sha256: 9501cec4d5c2b7a821479aec3282b3d8b42fda983bad055e0f9dbc19cf7bc5b1
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/cmap-{{ version }}.tar.gz
+  sha256: ed69913f26c3227fc212f3200213f64c0e2fad010e0fd6835280ca4b8b617832
 
 build:
   noarch: python
@@ -16,7 +16,7 @@ build:
 
 requirements:
   host:
-    - python {{ python_min }}
+    - python {{ python_min }}.*
     - pip
     - hatchling
     - hatch-vcs
@@ -31,7 +31,7 @@ test:
     - pip check
   requires:
     - pip
-    - python {{ python_min }}
+    - python {{ python_min }}.*
 
 about:
   home: https://github.com/tlambert03/cmap
